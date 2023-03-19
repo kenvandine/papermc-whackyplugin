@@ -1,5 +1,5 @@
 name: WhackyPlugin
-version: 1.0.0
+version: 0.0.0
 main: org.vandine.whackyplugin.WhackyPlugin
 description: An example plugin
 author: PaperMC

@@ -16,6 +16,7 @@ public class WhackyPlugin extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.getPlayer().sendMessage(Component.text("Hello, " + event.getPlayer().getName() + "!"));
+        event.getPlayer().sendMessage(Component.text("Hello, " + event.getPlayer().getName() + ", welcome to Ken's development server!"));
+        event.getPlayer().sendMessage(Component.text("Drew says hi"));
     }
 }
