@@ -1,0 +1,15 @@
+name: WhackyPlugin
+version: 1.0.0
+main: org.vandine.whackyplugin.WhackyPlugin
+description: An example plugin
+author: PaperMC
+website: https://papermc.io
+api-version: 1.19
+
+commands:
+  command:
+    description: "This is a command"
+    usage: "/command <arg>"
+    aliases: [cmd, command]
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
